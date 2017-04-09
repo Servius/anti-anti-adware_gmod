@@ -1,9 +1,38 @@
+--[[
 hook.Add("Think", "G-Realms_Adware_blocker_01-cl", function()
 	timer.Remove( "Repeat timer msg" )
 	hook.Remove("Think", "sfdgsadf")
 end)
+--]]
+hook.Add("Think", "Servius_Anti_Anti_Adware_Blocker_01-cl", function()
+	hook.Remove("Think","G-Realms_Adware_blocker_01-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_02-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_03-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_04-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_05-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_06-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_07-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_08-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_09-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_10-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_11-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_12-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_13-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_14-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_15-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_16-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_17-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_18-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_19-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_20-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_21-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_22-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_23-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_24-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_25-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_26-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_27-cl")
+	hook.Remove("Think","G-Realms_Adware_blocker_28-cl")
+end)
 
-
-
-
--- If they bypass this, let me know I can update this to bypass anything they do to bypass my bypass.
+-- If they bypass this, let me know I can update this to bypass anything they do to bypass my bypass and then they can bypass and then the bypass will bypass the bypass the bypass will bypass the bypass and the bypass will bypass the bypass.
